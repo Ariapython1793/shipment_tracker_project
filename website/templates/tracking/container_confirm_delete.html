@@ -1,0 +1,10 @@
+{% extends 'tracking/base.html' %}
+{% block content %}
+<h1 class="title">Delete container</h1>
+<p>Are you sure you want to delete <strong>{{ obj.container_number }}</strong>?</p>
+<form method="post">
+  {% csrf_token %}
+  <button class="button is-danger" type="submit">Delete</button>
+  <a class="button" href="{% url 'tracking:container_list' %}">Cancel</a>
+</form>
+{% endblock %}

@@ -1,0 +1,8 @@
+/* container_tracking/tracking/static/tracking/styles.css */
+body { font-family: system-ui, sans-serif; margin: 0; padding: 0 16px; }
+header nav { display: flex; gap: 12px; padding: 12px 0; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+.search-form { margin: 16px 0; }
+.stats { display: flex; gap: 24px; margin-bottom: 16px; }
+.form button { margin-top: 8px; }
